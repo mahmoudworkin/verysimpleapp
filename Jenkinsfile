@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/your-repository/micronaut-app.git'
+                git branch: 'main', url: 'https://github.com/mahmoudworkin/verysimpleapp.git'
             }
         }
 
